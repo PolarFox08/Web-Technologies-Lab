@@ -25,7 +25,7 @@ function Navbar() {
       <div className="navbar-brand">
         <span className="brand-logo">🎓</span>
         <div className="brand-text">
-          <h1>Apex National University</h1>
+          <h1>Christopher Olan University</h1>
           <p>Excellence in Education & Research</p>
         </div>
       </div>

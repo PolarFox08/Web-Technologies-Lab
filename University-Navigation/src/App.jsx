@@ -21,12 +21,13 @@ function App() {
                   title="About Our University"
                   category="Overview"
                   icon="🏛️"
-                  description="Apex National University is a premier higher education institution dedicated to academic excellence, innovative research, and holistic student development since 1985."
+                  description="Christopher Olan University is a premier higher education institution dedicated to academic excellence, innovative research, and holistic student development since 1947."
                   highlights={[
                     'Ranked among the top 10 universities nationwide',
                     'Accredited with Grade A++ by NAAC / International Accreditation Boards',
                     'Over 25,000 students and 1,200 esteemed faculty members',
-                    'State-of-the-art campus spanning across 150 lush green acres'
+                    'State-of-the-art campus spanning across 150 lush green acres',
+                    'Birthplace of the Leetcode Centurion'
                   ]}
                 />
               }
@@ -223,9 +224,9 @@ function App() {
                   icon="📞"
                   description="Get in touch with our admission officers, department heads, or administrative team for any inquiries."
                   highlights={[
-                    'Address: Apex National University Campus, Knowledge Corridor, City - 560001',
+                    'Address: Christopher Olan University Campus, Gerugambakkam, Chennai',
                     'Admission Helpdesk: +91 80 2345 6789 / Toll Free: 1800-123-4567',
-                    'General Inquiries: info@apexuniversity.edu.in',
+                    'General Inquiries: info@harizzu.edu.in',
                     'Office Hours: Monday - Saturday: 9:00 AM to 5:00 PM'
                   ]}
                 />
@@ -236,7 +237,7 @@ function App() {
 
         {/* Footer */}
         <footer className="footer">
-          <p>© 2026 Apex National University. All Rights Reserved.</p>
+          <p>© 2026 Christopher Olan University. All Rights Reserved.</p>
           <p>Web Technologies Lab — React Navigation & Dropdown System</p>
         </footer>
       </div>
