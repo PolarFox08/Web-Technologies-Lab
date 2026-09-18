@@ -535,16 +535,17 @@ function getDashboardHTML() {
           <span class="tag">query.title</span>
         </div>
         <p style="font-size:0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
-          Click direct URL triggers to test query parameter parsing:
+          Click links below to open raw URL endpoints in a new tab (demonstrating browser URL parsing & direct server JSON responses):
         </p>
         
-        <div>
-          <a class="url-demo-link" href="#" onclick="executeUrl('/add?title=LabTasks&text=Complete%20Web%20Tech%20Assignment')">/add?title=LabTasks&text=...</a><br>
-          <a class="url-demo-link" href="#" onclick="executeUrl('/read?title=LabTasks')">/read?title=LabTasks</a><br>
-          <a class="url-demo-link" href="#" onclick="executeUrl('/update?title=LabTasks&text=%0ASubmit%20on%20GitHub')">/update?title=LabTasks&text=...</a><br>
-          <a class="url-demo-link" href="#" onclick="executeUrl('/info?title=LabTasks')">/info?title=LabTasks</a><br>
-          <a class="url-demo-link" href="#" onclick="executeUrl('/list')">/list (fs.readdirSync)</a><br>
-          <a class="url-demo-link" href="#" onclick="executeUrl('/delete?title=LabTasks')">/delete?title=LabTasks</a>
+        <div style="display:flex; flex-direction:column; gap:0.5rem;">
+          <a class="url-demo-link" href="/add?title=LabTasks&text=Complete%20Web%20Tech%20Assignment" target="_blank">↗ /add?title=LabTasks&text=Complete Web Tech</a>
+          <a class="url-demo-link" href="/read?title=LabTasks" target="_blank">↗ /read?title=LabTasks</a>
+          <a class="url-demo-link" href="/update?title=LabTasks&text=%0ASubmit%20on%20GitHub" target="_blank">↗ /update?title=LabTasks&text=...</a>
+          <a class="url-demo-link" href="/info?title=LabTasks" target="_blank">↗ /info?title=LabTasks</a>
+          <a class="url-demo-link" href="/list" target="_blank">↗ /list (fs.readdirSync)</a>
+          <a class="url-demo-link" href="/parse?targetUrl=http://localhost:3000/add?title=LabTasks" target="_blank">↗ /parse?targetUrl=... (url.parse)</a>
+          <a class="url-demo-link" href="/delete?title=LabTasks" target="_blank" style="color:#ef4444; background:rgba(239,68,68,0.1);">↗ /delete?title=LabTasks</a>
         </div>
       </div>
 
