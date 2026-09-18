@@ -1,0 +1,19 @@
+{
+  "name": "url-based-notes-app",
+  "version": "1.0.0",
+  "description": "Web Technologies Lab Assignment: URL and FS Core Modules Demonstration in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "fs-module",
+    "url-module",
+    "web-technologies-lab",
+    "notes-app"
+  ],
+  "author": "PolarFox08",
+  "license": "ISC"
+}
