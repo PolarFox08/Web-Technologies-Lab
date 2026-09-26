@@ -2,7 +2,6 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const itemsRouter = require('./routes/items');
 const authRouter = require('./routes/auth');
 const billsRouter = require('./routes/bills');
 
@@ -25,8 +24,6 @@ mongoose
   });
 
 // Routes
-// Keep existing items router mounted during migration
-app.use('/api/items', itemsRouter);
 app.use('/api/auth', authRouter);
 app.use('/api/bills', billsRouter);
 
@@ -37,5 +34,5 @@ app.get('/', (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(Server running on port );
 });
